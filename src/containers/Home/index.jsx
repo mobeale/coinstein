@@ -5,7 +5,7 @@ export default () => (
         <div className="col-xs-12">
             <div  className="jumbotron">
                 <h1>Coinstein</h1>
-                <h3>Be smarter with Cryptocurrencies</h3>
+                <h3>Get smarter with Cryptocurrencies</h3>
             </div>
         </div>
         <div className="col-xs-12 col-sm-6">
