@@ -6,7 +6,11 @@ const Menu = () => (
 
 <div className="App-menu row">
 
-    <div className="col-sm-2 col-sm-offset-1 item">
+    <div className="col-sm-2 item">
+        <Link to="/home">Home <i className="icon-home"/></Link>
+    </div>
+
+    <div className="col-sm-2 item">
         <Link to="/calculators">Calculators <i className="icon-calculator"/></Link>
     </div>
 

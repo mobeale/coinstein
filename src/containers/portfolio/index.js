@@ -1,5 +1,5 @@
 import React from 'react'
-import { Route, Link } from 'react-router-dom'
+import { Redirect, Route, Link } from 'react-router-dom'
 import Overview from './overview.jsx'
 import Holdings from './holdings.jsx'
 import Chart from './chart.jsx'
@@ -14,6 +14,7 @@ const Portfolio = ({match}) => (
             </div>
         </div>
         <main>
+            <Redirect from="/portfolio" to={`${match.url}/overview`} />
             <Route path={`${match.url}/overview`} component={Overview}/>
             <Route path={`${match.url}/holdings`} component={Holdings}/>
             <Route path={`${match.url}/chart`} component={Chart}/>
