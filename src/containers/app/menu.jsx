@@ -7,11 +7,11 @@ const Menu = () => (
 <div className="App-menu row">
 
     <div className="col-sm-2 col-sm-offset-1 item">
-        <Link to="/calculators" onlyActiveOnIndex>Calculators <i className="icon-calculator"/></Link>
+        <Link to="/calculators">Calculators <i className="icon-calculator"/></Link>
     </div>
 
     <div className="col-sm-2 item">
-        <Link to="/portfolio" activeClassName="active-menu">Portfolio<i className="icon-diamond"/></Link>
+        <Link to="/portfolio">Portfolio<i className="icon-diamond"/></Link>
     </div>
 
     <div className="col-sm-2 item">

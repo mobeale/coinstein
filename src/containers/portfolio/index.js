@@ -17,7 +17,6 @@ const Portfolio = ({match}) => (
             <Route path={`${match.url}/overview`} component={Overview}/>
             <Route path={`${match.url}/holdings`} component={Holdings}/>
             <Route path={`${match.url}/chart`} component={Chart}/>
-
         </main>
     </div>
 );

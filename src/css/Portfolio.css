@@ -49,17 +49,18 @@
 
 
 .portfolio-overview h1 {
-    font-size: 160px;
+    font-size: 12vw;
     color: #5b5b5b;
     font-weight:900;
     text-align: center;
+    margin-top: 0px;
 }
 
 .portfolio-overview h3 {
-    font-size: 40px;
+    font-size: 4vw;
     font-weight:900;
     text-align: center;
-    margin-top: 0px;
+    margin: 0px;
 }
 
 .portfolio-value-change-positive {
@@ -68,4 +69,49 @@
 
 .portfolio-value-change-negative {
     color: #FD7B87;
+}
+
+.overview-timescales {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.overview-timescales a {
+    font-size: 18px;
+    font-weight: 500;
+    color: #5b5b5b;
+}
+
+.overview-timescales a:hover {
+    font-weight: 500;
+    color: #5b5b5b;
+}
+
+.overview-breakdown {
+    margin-top: 20px;
+    text-align: center !important;
+}
+
+.overview-breakdown a {
+    color: #11BFF8;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.overview-breakdown h3 {
+    margin-top: 15px;
+    color: #5b5b5b;
+    font-weight: 900;
+}
+
+.overview-breakdown p {
+    margin-top: 5px
+}
+.overview-breakdown p:hover {
+    color: #11BFF8;
+    cursor: pointer;
+}
+
+.overview-breakdown i {
+    position: relative;
+    top: 2px;
 }

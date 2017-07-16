@@ -8,7 +8,7 @@ export default class Ticker extends React.Component {
             btcPrice: '£1400.00',
             ethPrice: '£110.00',
             ltcPrice: '£30.00',
-            xrpPrice: '£0.12'
+            xrpPrice: '£0.123456'
         };
     }
 
