@@ -1,23 +1,14 @@
-
-.App-menu {
-    top: 30px;
-    height: 100%;
-    padding:10px;
-    background-color: #f6f6f6;
+.portfolio-menu {
+    margin-top: 20px
 }
 
-.App-menu .item {
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.App-menu a {
-    font-size: 22px;
+.portfolio-menu a {
+    font-size: 18px;
     color: #5b5b5b;
     position: relative;
 }
 
-.App-menu a:before {
+.portfolio-menu a:before {
     content: "";
     position: absolute;
     width: 100%;
@@ -32,50 +23,49 @@
     transition: all 0.3s ease-in-out 0s;
 }
 
-.App-menu a:hover:before {
+.portfolio-menu a:hover:before {
     visibility: visible;
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
 }
 
-.App-menu a:active:before {
+.portfolio-menu a:active:before {
     visibility: visible;
 }
-.active-menu {
-    color: #11BFF8 !important;
+
+
+.portfolio-menu a:hover {
+    color: #11BFF8;
+    text-decoration: none;
+}
+.portfolio-menu a:focus {
+    color: #11BFF8;
+    text-decoration: none;
+}
+.portfolio-menu a:active {
+    color: #11BFF8;
+    text-decoration: none;
 }
 
-.App-menu a:hover {
-    color: #11BFF8;
-    text-decoration: none;
-}
-.App-menu a:focus {
-    color: #11BFF8;
-    text-decoration: none;
-}
-.App-menu a:active {
-    color: #11BFF8;
-    text-decoration: none;
-}
-.App-menu i {
-    font-size: 22px;
-    margin-left: 8px;
-    position: relative;
-    top: 2px;
-}
 
-.userMenu {
-    display: inline-block;
-    float: right;
-}
-.userMenu i {
-    font-size: 24px;
+.portfolio-overview h1 {
+    font-size: 160px;
     color: #5b5b5b;
-    margin: 10px;
-    cursor: pointer;
+    font-weight:900;
+    text-align: center;
 }
 
-.userMenu i:hover {
-   color:  #11BFF8;
+.portfolio-overview h3 {
+    font-size: 40px;
+    font-weight:900;
+    text-align: center;
+    margin-top: 0px;
 }
 
+.portfolio-value-change-positive {
+    color: #89EC9E;
+}
+
+.portfolio-value-change-negative {
+    color: #FD7B87;
+}

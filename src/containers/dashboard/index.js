@@ -11,7 +11,7 @@ import {
 
 const Dashboard = props => (
   <div  style={{textAlign: 'center', marginTop: '100px'}}>
-    <h1>Dashboard with counters</h1>
+    <h1>Dashboard</h1>
     <p>Count: {props.count}</p>
 
     <p>
@@ -39,7 +39,7 @@ const mapDispatchToProps = dispatch => bindActionCreators({
   incrementAsync,
   decrement,
   decrementAsync,
-  changePage: () => push('/about-us')
+  changePage: () => push('/portfolio')
 }, dispatch);
 
 export default connect(
