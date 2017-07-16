@@ -9,9 +9,9 @@ import {
   decrementAsync
 } from '../../modules/counter'
 
-const Home = props => (
-  <div  style={{textAlign: 'center'}}>
-    <h1>Home</h1>
+const Dashboard = props => (
+  <div  style={{textAlign: 'center', marginTop: '100px'}}>
+    <h1>Dashboard with counters</h1>
     <p>Count: {props.count}</p>
 
     <p>
@@ -26,13 +26,13 @@ const Home = props => (
 
     <p><button onClick={() => props.changePage()}>Go to about page via redux</button></p>
   </div>
-)
+);
 
 const mapStateToProps = state => ({
   count: state.counter.count,
   isIncrementing: state.counter.isIncrementing,
   isDecrementing: state.counter.isDecrementing
-})
+});
 
 const mapDispatchToProps = dispatch => bindActionCreators({
   increment,
@@ -40,9 +40,9 @@ const mapDispatchToProps = dispatch => bindActionCreators({
   decrement,
   decrementAsync,
   changePage: () => push('/about-us')
-}, dispatch)
+}, dispatch);
 
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(Home)
+)(Dashboard)

@@ -1,0 +1,79 @@
+
+.App-menu {
+    top: 30px;
+    height: 70px;
+    padding:10px;
+    background-color: #f6f6f6;
+}
+
+.App-menu .item {
+    margin-top: 10px !important;
+    margin: 20px;
+}
+
+.App-menu a {
+    font-size: 22px;
+    color: #5b5b5b;
+    position: relative;
+}
+
+.App-menu a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -8px;
+    left: 0;
+    background-color: #11BFF8;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.App-menu a:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+.App-menu a:active:before {
+    visibility: visible;
+}
+
+
+.App-menu a:hover {
+    color: #11BFF8;
+    text-decoration: none;
+}
+.App-menu a:focus {
+    color: #11BFF8;
+    text-decoration: none;
+}
+.App-menu a:active {
+    color: #11BFF8;
+    text-decoration: none;
+}
+.App-menu i {
+    font-size: 22px;
+    margin-left: 8px;
+    position: relative;
+    top: 2px;
+}
+
+.userMenu {
+    display: inline-block;
+    float: right;
+}
+.userMenu i {
+    font-size: 24px;
+    color: #5b5b5b;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.userMenu i:hover {
+   color:  #11BFF8;
+}
+

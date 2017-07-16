@@ -1,23 +1,30 @@
 import React from 'react';
 import { Route, Link } from 'react-router-dom'
-import Home from '../home'
-import About from '../about'
+import Portfolio from '../portfolio'
+import Calculators from '../calculators'
+import Dashboards from '../dashboard'
+import Charts from '../charts'
+import Wallet from '../wallet'
+import Menu from '../app/menu.jsx'
+import Tickers from '../app/tickers.jsx';
 import '../../css/App.css';
+import '../../css/Menu.css';
+import '../../css/Ticker.css'
 
 const App = () => (
   <div>
     <div className="App">
-      <div className="App-header">
-        <h2>Welcome to React</h2>
-      </div>
-      <Link to="/">Home</Link>
-      <Link to="/about-us">About</Link>
+         <Tickers />
+        <Menu/>
     </div>
     <main>
-      <Route exact path="/" component={Home} />
-      <Route exact path="/about-us" component={About} />
+        <Route exact path="/portfolio" component={Portfolio} />
+        <Route exact path="/calculators" component={Calculators} />
+        <Route exact path="/dashboards" component={Dashboards} />
+        <Route exact path="/charts" component={Charts} />
+        <Route exact path="/wallets" component={Wallet} />
     </main>
   </div>
-)
+);
 
 export default App

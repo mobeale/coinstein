@@ -1,0 +1,19 @@
+.tickers p {
+    color: #5b5b5b;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.tickers span {
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.tickers .plus {
+    color: #89EC9E;
+}
+
+.tickers .minus {
+    color: #FD7B87;
+}
