@@ -40,7 +40,6 @@
 }
 
 @media all and (min-width: 767px) and (max-width: 1024px) {
-
     .App-menu a {
         font-size: 14px;
     }
