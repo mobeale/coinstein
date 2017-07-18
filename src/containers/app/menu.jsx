@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const Menu = () => (
 
-<div className="App-menu row">
+<div className="App-menu row ">
 
     <div className="col-sm-2 item">
         <Link to="/home">Home <i className="icon-home"/></Link>

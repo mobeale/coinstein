@@ -11,9 +11,11 @@ import Home from '../Home'
 import Tickers from '../app/tickers.jsx';
 import '../../css/App.css';
 import '../../css/Menu.css';
-import '../../css/Ticker.css'
-import '../../css/Portfolio.css'
-import '../../css/home.css'
+import '../../css/Ticker.css';
+import '../../css/Portfolio.css';
+import '../../css/home.css';
+import '../../css/responsive.css';
+import '../../css/helpers.css';
 
 
 

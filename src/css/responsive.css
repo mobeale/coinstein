@@ -1,0 +1,98 @@
+@media all and (min-width: 1280px) {
+    .App-menu a {
+        font-size: 26px;
+    }
+    .App-menu i {
+        font-size: 26px;
+    }
+    .tickers p {
+        font-size: 20px;
+    }
+    .tickers span {
+        font-size: 18px;
+    }
+    .userMenu i {
+        font-size: 24px;
+    }
+}
+
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+
+    .App-menu a {
+        font-size: 20px;
+    }
+    .App-menu i {
+        font-size: 20px;
+    }
+    .tickers p {
+        font-size: 14px;
+    }
+
+    .tickers span {
+        font-size: 12px;
+    }
+    .userMenu i {
+         font-size: 20px;
+         color: #5b5b5b;
+         margin: 10px;
+         cursor: pointer;
+     }
+}
+
+@media all and (min-width: 767px) and (max-width: 1024px) {
+
+    .App-menu a {
+        font-size: 14px;
+    }
+    .App-menu i {
+        font-size: 12px;
+    }
+    .tickers p {
+        font-size: 12px;
+    }
+
+    .tickers span {
+        font-size: 10px
+    }
+    .userMenu i {
+        font-size: 14px;
+        color: #5b5b5b;
+        margin: 10px;
+        cursor: pointer;
+    }
+}
+
+@media all and (min-width: 480px) and (max-width: 767px) {
+
+    .App-menu a {
+        font-size: 20px;
+    }
+    .App-menu i {
+        font-size: 20px;
+    }
+    .tickers p {
+         font-size: 8px;
+     }
+
+    .tickers span {
+        font-size: 6px;
+    }
+
+}
+
+@media all and (max-width: 480px) {
+
+    .App-menu a {
+        font-size: 20px;
+    }
+    .App-menu i {
+        font-size: 20px;
+    }
+    .tickers p {
+        font-size: 6px;
+    }
+
+    .tickers span {
+        font-size: 4px;
+    }
+}

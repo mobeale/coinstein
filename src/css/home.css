@@ -2,3 +2,12 @@
     font-weight:900;
     font-size: 80px !important;
 }
+
+.home h3:hover {
+    color: #11BFF8;
+    cursor: pointer;
+}
+
+.home .jumbotron {
+    border-radius: 3px !important;
+}
