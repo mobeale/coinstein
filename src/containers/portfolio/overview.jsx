@@ -25,7 +25,7 @@ export default class Overview extends React.Component {
                     <h3 className={this.state.portfolioChangePositive ? 'portfolio-value-change-positive' : 'portfolio-value-change-negative'}>{this.state.portfolioValueChange}</h3>
                 </div>
                 <div className="col-sm-12 overview-timescales">
-                    <div className="col-xs-1 col-sm-offset-1"><a>1H</a></div>
+                    <div className="col-xs-1 col-xs-offset-1"><a>1H</a></div>
                     <div className="col-xs-1"><a>12H</a></div>
                     <div className="col-xs-1"><a>1D</a></div>
                     <div className="col-xs-1"><a>3D</a></div>

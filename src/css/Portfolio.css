@@ -117,10 +117,12 @@
 
 .portfolio-holdings {
 text-align: center;
+    margin-top: 2%;
 }
 
 .portfolio-holdings a {
     font-weight: 500;
+    color: #5b5b5b;
 }
 
 .portfolio-holdings h1 {
