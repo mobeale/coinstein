@@ -20,7 +20,7 @@ import '../../css/helpers.css';
 
 
 const App = () => (
-  <div>
+  <div className="parent">
     <div className="App">
          <Tickers />
             <Menu/>

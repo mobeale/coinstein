@@ -14,6 +14,13 @@
     .userMenu i {
         font-size: 28px;
     }
+    .portfolio-menu a {
+        font-size: 28px;
+    }
+    .portfolio-holdings a {
+        font-size: 40px;
+        font-weight: 500;
+    }
 }
 
 @media all and (min-width: 1024px) and (max-width: 1280px) {
@@ -37,6 +44,13 @@
          margin: 10px;
          cursor: pointer;
      }
+    .portfolio-menu a {
+        font-size: 22px;
+    }
+    .portfolio-holdings a {
+        font-size: 34px;
+        font-weight: 500;
+    }
 }
 
 @media all and (min-width: 767px) and (max-width: 1024px) {
@@ -59,6 +73,13 @@
         margin: 10px;
         cursor: pointer;
     }
+    .portfolio-menu a {
+        font-size: 18px;
+    }
+    .portfolio-holdings a {
+        font-size: 28px;
+        font-weight: 500;
+    }
 }
 
 @media all and (min-width: 480px) and (max-width: 767px) {
@@ -75,6 +96,13 @@
 
     .tickers span {
         font-size: 6px;
+    }
+    .portfolio-menu a {
+        font-size: 18px;
+    }
+    .portfolio-holdings a {
+        font-size: 20px;
+        font-weight: 500;
     }
 
 }
@@ -93,5 +121,12 @@
 
     .tickers span {
         font-size: 4px;
+    }
+    .portfolio-menu a {
+        font-size: 18px;
+    }
+    .portfolio-holdings a {
+        font-size: 20px;
+        font-weight: 500;
     }
 }

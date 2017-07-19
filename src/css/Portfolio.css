@@ -3,7 +3,6 @@
 }
 
 .portfolio-menu a {
-    font-size: 18px;
     color: #5b5b5b;
     position: relative;
 }
@@ -114,4 +113,17 @@
 .overview-breakdown i {
     position: relative;
     top: 2px;
+}
+
+.portfolio-holdings {
+text-align: center;
+}
+
+.portfolio-holdings a {
+    font-weight: 500;
+}
+
+.portfolio-holdings h1 {
+    font-size: 8vw;
+    font-weight: 900
 }
