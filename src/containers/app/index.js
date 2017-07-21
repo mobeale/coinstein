@@ -16,11 +16,12 @@ import '../../css/Portfolio.css';
 import '../../css/home.css';
 import '../../css/responsive.css';
 import '../../css/helpers.css';
+import '../../css/App-dark.css';
 
 
 
 const App = () => (
-  <div className="parent">
+  <div className="parent" >
     <div className="App">
          <Tickers />
             <Menu/>

@@ -1,18 +1,18 @@
 @media all and (min-width: 1280px) {
     .App-menu a {
-        font-size: 26px;
+        font-size: 22px;
     }
     .App-menu i {
-        font-size: 26px;
+        font-size: 22px;
     }
     .tickers p {
-        font-size: 20px;
-    }
-    .tickers span {
         font-size: 18px;
     }
+    .tickers span {
+        font-size: 16px;
+    }
     .userMenu i {
-        font-size: 28px;
+        font-size: 24px;
     }
     .portfolio-menu a {
         font-size: 28px;

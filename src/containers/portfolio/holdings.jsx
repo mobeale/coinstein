@@ -1,14 +1,11 @@
 import React from 'react';
+import { bindActionCreators } from 'redux'
+import { connect } from 'react-redux'
+import {
+    incrementBtc
+} from '../../modules/portfolio'
 
-export default class Holdings extends React.Component {
-    constructor(props){
-        super(props);
-        this.state = {
-            btcHoldings: '10.234',
-        }
-    }
-
-
+class Holdings extends React.Component {
 
  render(){
      return (
@@ -23,10 +20,26 @@ export default class Holdings extends React.Component {
              </div>
              <div className="row">
                  <div className="col-sm-12">
-                     <h1>{this.state.btcHoldings}</h1>
+                     <h1>{this.props.btc}</h1>
+                     <button onClick={this.props.incrementBtc} disabled={this.props.isIncrementingBtc}>Increment</button>
                  </div>
              </div>
          </div>
      )
  }
 }
+
+
+const mapStateToProps = state => ({
+    btc: state.portfolio.btc,
+    isIncrementingBtc: state.portfolio.isIncrementingBtc
+});
+
+const mapDispatchToProps = dispatch => bindActionCreators({
+    incrementBtc,
+}, dispatch);
+
+export default connect(
+    mapStateToProps,
+    mapDispatchToProps
+)(Holdings)
